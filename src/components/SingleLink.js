@@ -3,7 +3,7 @@ const SingleLink = (props) => {
   const { name, id, link } = p;
   return (
     <li>
-      <a href={link} id={id}>{name}</a>
+      <a href={link} id={id} target="_blank" rel="noreferrer">{name}</a>
     </li>
   );
 };
