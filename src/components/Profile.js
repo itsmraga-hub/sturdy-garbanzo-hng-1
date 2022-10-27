@@ -17,7 +17,7 @@ const Profile = () => (
       href="https://twitter.com/RagaMacharia"
       target="_blank"
     >
-      RagaMacharia
+      William Raga
     </a>
     <a
       rel="noreferrer"
