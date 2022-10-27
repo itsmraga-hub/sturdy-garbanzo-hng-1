@@ -2,6 +2,7 @@ import Profile from './components/Profile';
 import LinkSection from './components/LinkSection';
 
 import './App.css';
+import Footer from './components/Footer';
 
 const App = () => (
   <>
@@ -9,6 +10,7 @@ const App = () => (
       <Profile />
     </div>
     <LinkSection />
+    <Footer />
   </>
 );
 
