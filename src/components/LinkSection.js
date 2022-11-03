@@ -34,6 +34,11 @@ const LinkSection = () => {
       link: 'https://books.zuri.team/design-rules',
       text: 'Design Books',
     },
+    {
+      id: 'contact',
+      link: '/contact',
+      text: 'Contact Me',
+    },
   ];
 
   return (
