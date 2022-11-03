@@ -7,8 +7,8 @@ const SingleLink = (props) => {
     <li>
       {
         id !== 'contact' ? <a href={link} id={id} target="_blank" rel="noreferrer">{name}</a> : (
-          <Link to="/contact">
-            <a href={link} id={id} rel="noreferrer">{name}</a>
+          <Link to={link} id={id}>
+            {name}
           </Link>
         )
       }
