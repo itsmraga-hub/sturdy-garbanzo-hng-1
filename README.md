@@ -7,8 +7,14 @@
 ## Built With
 
 - Major languages
+  - Javascript
+  - plain css
 - Frameworks
+  - React.js
+
 - Technologies used
+  - ES6
+  - DRY
 
 ## Live Demo (if available)
 

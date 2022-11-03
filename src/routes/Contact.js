@@ -10,7 +10,7 @@ const Contact = () => (
           <h1>Contact Me</h1>
           <p>Hi there, contact me to ask me about anything you have in mind.</p>
         </div>
-        <form>
+        <form id="form" action="">
           <div className={style.Flex}>
             <label htmlFor="first_name">
               First name
