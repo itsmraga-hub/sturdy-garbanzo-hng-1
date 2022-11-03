@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const SingleLink = (props) => {
   const p = props;
@@ -7,9 +7,9 @@ const SingleLink = (props) => {
     <li>
       {
         id !== 'contact' ? <a href={link} id={id} target="_blank" rel="noreferrer">{name}</a> : (
-          <NavLink to={link} id={id}>
+          <Link to={link} id={id}>
             {name}
-          </NavLink>
+          </Link>
         )
       }
     </li>
