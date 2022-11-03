@@ -1,17 +1,15 @@
-import Profile from './components/Profile';
-import LinkSection from './components/LinkSection';
+import { Routes, Route } from 'react-router';
+
+import Home from './components/Home';
 
 import './App.css';
-import Footer from './components/Footer';
+import Contact from './routes/Contact';
 
 const App = () => (
-  <>
-    <div className="App">
-      <Profile />
-    </div>
-    <LinkSection />
-    <Footer />
-  </>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/contact" element={<Contact />} />
+  </Routes>
 );
 
 export default App;
