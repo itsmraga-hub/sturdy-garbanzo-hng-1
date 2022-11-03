@@ -42,6 +42,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
+- run `npm i` to install any other dependencies i.e.
+  - react router
+  - react-router-dom
+
 ### Usage
 
 ### Run tests
